@@ -1,4 +1,4 @@
-import { loadCss } from "../../util";
+import { loadCss } from "../../util.js";
 
 loadCss("/public/js/components/banner/banner.css");
 
