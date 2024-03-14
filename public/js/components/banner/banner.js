@@ -1,4 +1,6 @@
-import "./banner.css";
+import { loadCss } from "../../util";
+
+loadCss("/public/js/components/banner/banner.css");
 
 export const banner = ({ title, desc, image }) =>
   `
