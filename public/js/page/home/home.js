@@ -1,8 +1,8 @@
 import { clientHTML } from "../../components/client/client";
 import { BannerService, HomeContent, bannerImages } from "../../data";
-import { util } from "../../util";
+import { loadCss, util } from "../../util";
 
-util.loadCss("/public/js/page/home/home.css");
+loadCss("/public/js/page/home/home.css");
 
 const numberHTML = `
 <section class="numbers flex_box animation">

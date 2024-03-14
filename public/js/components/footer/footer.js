@@ -1,6 +1,6 @@
-import { util, logoHTML, navHTML } from "../../util";
+import { util, logoHTML, navHTML, loadCss } from "../../util";
 
-util.loadCss("/public/js/components/footer/footer.css");
+loadCss("/public/js/components/footer/footer.css");
 
 const htmlString = `
     <div class="footer container">

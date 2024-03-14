@@ -1,6 +1,6 @@
-import { util, logoHTML, navHTML } from "../../util";
+import { util, logoHTML, navHTML, loadCss } from "../../util";
 
-util.loadCss("/public/js/components/header/header.css");
+loadCss("/public/js/components/header/header.css");
 
 const htmlString = `
 <div class="header container flex_box">
