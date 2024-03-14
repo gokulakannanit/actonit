@@ -35,7 +35,7 @@ export const main = () => {
     const page = path.split("/")[1] || "home";
 
     pageObj[page]?.load() ||
-      import("./page/" + page + "/" + page + ".js").then((module) => {
+      import("./page/" + page + "/" + page).then((module) => {
         console.log(page);
         pageObj[page] = module.default(mainEle);
         pageObj[page].load();
