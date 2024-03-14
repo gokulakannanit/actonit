@@ -1,6 +1,8 @@
 import { HomeContent } from "../../data";
 import "./client.css";
 
+loadCss("/public/js/components/client/client.css");
+
 export const clientHTML = `
 <section class="clients align_center">
     <h3 class="font_primary">${HomeContent.client.title}</h3>
