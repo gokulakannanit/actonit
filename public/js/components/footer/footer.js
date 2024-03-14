@@ -1,4 +1,4 @@
-import { util, logoHTML, navHTML, loadCss } from "../../util";
+import { util, logoHTML, navHTML, loadCss } from "../../util.js";
 
 loadCss("/public/js/components/footer/footer.css");
 

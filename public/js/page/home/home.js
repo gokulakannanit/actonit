@@ -1,6 +1,6 @@
-import { clientHTML } from "../../components/client/client";
-import { BannerService, HomeContent, bannerImages } from "../../data";
-import { loadCss, util } from "../../util";
+import { clientHTML } from "../../components/client/client.js";
+import { BannerService, HomeContent, bannerImages } from "../../data.js";
+import { loadCss, util } from "../../util.js";
 
 loadCss("/public/js/page/home/home.css");
 

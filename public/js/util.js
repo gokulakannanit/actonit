@@ -1,4 +1,4 @@
-import { commonMessage, navMenu } from "./data";
+import { commonMessage, navMenu } from "./data.js";
 
 export const logoHTML = `
 <a href="/" class="logo">
