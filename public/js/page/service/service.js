@@ -1,5 +1,5 @@
 import { ServiceContent } from "../../data.js";
-import { util } from "../../util.js";
+import { loadCss, util } from "../../util.js";
 import { banner } from "../../components/banner/banner.js";
 
 loadCss("/public/js/page/service/service.css");

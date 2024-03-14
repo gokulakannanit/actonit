@@ -1,9 +1,9 @@
 import { banner } from "../../components/banner/banner.js";
 import { clientHTML } from "../../components/client/client.js";
 import { AboutContent } from "../../data.js";
-import { util } from "../../util.js";
+import { loadCss, util } from "../../util.js";
 
-import "./about.css";
+loadCss("/public/js/page/about/about.css");
 
 const aboutFinalHTML=`
 <section class="about_final">

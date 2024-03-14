@@ -1,6 +1,6 @@
 import { banner } from "../../components/banner/banner.js";
 import { CareerContent } from "../../data.js";
-import { util } from "../../util.js";
+import { loadCss, util } from "../../util.js";
 
 
 loadCss("/public/js/page/career/career.css");

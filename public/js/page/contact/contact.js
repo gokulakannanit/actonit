@@ -1,6 +1,6 @@
 import { banner } from "../../components/banner/banner.js";
 import { ContactContent } from "../../data.js";
-import { util } from "../../util.js";
+import { loadCss, util } from "../../util.js";
 
 
 loadCss("/public/js/page/contact/contact.css");
