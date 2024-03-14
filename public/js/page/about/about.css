@@ -1,0 +1,70 @@
+.about_page {
+  .about_us {
+    margin: 30px 0 0;
+  }
+
+  .about_content {
+    display: flex;
+
+    margin: 20px;
+
+    .experience {
+      display: flex;
+
+      span {
+        align-self: center;
+        text-align: left;
+        margin-left: 20px;
+      }
+      .year {
+        font-size: 150px;
+        color: #66ae3e;
+      }
+    }
+
+    .block {
+      text-align: justify;
+      margin: 0 20px;
+      p {
+        margin: 20px 0 20px 80px;
+      }
+    }
+  }
+
+  .about_middle {
+    margin: 50px 0;
+    padding: 50px 0;
+    background-color: #efefef;
+    .content {
+      margin-left: 40px;
+      h1 {
+        font-size: 38px;
+      }
+      p {
+        text-align: justify;
+      }
+    }
+    img {
+      width: 250px;
+      height: 350px;
+      border-radius: 20px;
+      border-left: 4px solid #66ae3e;
+      &:first-child {
+        margin-right: 20px;
+      }
+      &:nth-child(2) {
+        margin-top: 150px;
+      }
+    }
+  }
+
+  .about_final {
+    .block {
+      margin:30px 0;
+      .message {
+        width: 45%;
+        margin:30px 0;
+      }
+    }
+  }
+}

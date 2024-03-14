@@ -1,0 +1,235 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://fonts.googleapis.com/css?family=Poppins";
+
+:root {
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.link {
+  color: #000;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+a,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: #666;
+}
+
+.flex_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.space_around {
+  justify-content: space-around;
+}
+
+.space_center {
+  justify-content: center;
+}
+
+.space_even {
+  justify-content: space-evenly;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+
+.no_message {
+  width: 100%;  
+  text-align: center;
+  margin: 30px 0;
+}
+.no_message span {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #efefef;
+  border-radius: 10px;
+}
+
+.space_start {
+  justify-content: start;
+}
+
+.align_right {
+  text-align: right;
+}
+.align_center {
+  text-align: center !important;
+}
+
+.align_left {
+  text-align: left !important;
+}
+
+.font_primary {
+  color: #66ae3e !important;
+}
+
+.fa {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 20px 0 0;
+}
+
+.logo {
+  display: inline-block;
+  margin: 20px 10px 0;
+  img {
+    width: 50px;
+    vertical-align: middle;
+  }
+  h1 {
+    display: inline-block;
+    padding-top: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-size: 32px;
+  }
+}
+
+footer {
+  background-color: #222;
+  color: #efefef;
+}
+.small {
+  font-size: 12px;
+}
+main{
+  min-height: 600px;
+}

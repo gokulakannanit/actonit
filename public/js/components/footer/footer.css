@@ -1,0 +1,71 @@
+.footer {
+  .footer_logo {
+    margin: 10px 0 30px;
+  }
+  .footer_info {
+    padding: 20px;
+    min-width: 200px;
+    max-width: 340px;
+    ul {
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+    .nav a {
+      width: 120px;
+      margin: 10px 0;
+    }
+    a.address {
+      display: inline-block;
+      color: #efefef;
+      text-align: left;
+      vertical-align: middle;
+      span {
+        display: inline-block;
+        line-height: 30px;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .follow {
+    margin: 20px;
+    a {
+      margin: 0 10px;
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      background-color: #efefef;
+      border-radius: 50%;
+      text-align: center;
+      .fa {
+        padding: 0;
+      }
+    }
+  }
+}
+.copyright {
+  text-align: center;
+  background-color: #111;
+  padding: 10px;
+}
+
+.scroll_button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 30px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: #365e1e;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+  color: #efefef;
+  z-index: 10;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+.scroll_button .fa {
+  font-size: 42px;
+}
