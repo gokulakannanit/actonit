@@ -1,6 +1,7 @@
 import { util, logoHTML, navHTML } from "../../util";
 
-import "./footer.css";
+import sheet from "./footer.css" assert { type: "css" };
+document.adoptedStyleSheets = [sheet];
 
 const htmlString = `
     <div class="footer container">
