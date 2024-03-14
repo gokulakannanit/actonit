@@ -1,7 +1,7 @@
-import { banner } from "../../components/banner/banner";
-import { clientHTML } from "../../components/client/client";
-import { AboutContent } from "../../data";
-import { util } from "../../util";
+import { banner } from "../../components/banner/banner.js";
+import { clientHTML } from "../../components/client/client.js";
+import { AboutContent } from "../../data.js";
+import { util } from "../../util.js";
 
 import "./about.css";
 
