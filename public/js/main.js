@@ -1,5 +1,4 @@
-import sheet from "../css/style.css" assert { type: "css" };
-document.adoptedStyleSheets = [sheet];
+import "../css/style.css";
 
 import { util } from "./util.js";
 import { Header } from "./components/header/header.js";
