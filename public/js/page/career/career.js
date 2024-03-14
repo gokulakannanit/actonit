@@ -1,6 +1,6 @@
-import { banner } from "../../components/banner/banner";
-import { CareerContent } from "../../data";
-import { util } from "../../util";
+import { banner } from "../../components/banner/banner.js";
+import { CareerContent } from "../../data.js";
+import { util } from "../../util.js";
 import "./career.css";
 
 const jobListHTML = (jobs) => `

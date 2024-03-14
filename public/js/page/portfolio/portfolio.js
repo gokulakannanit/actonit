@@ -1,6 +1,6 @@
-import { PortfolioContent } from "../../data";
-import { noMessageHTML, util } from "../../util";
-import { banner } from "../../components/banner/banner";
+import { PortfolioContent } from "../../data.js";
+import { noMessageHTML, util } from "../../util.js";
+import { banner } from "../../components/banner/banner.js";
 import "./portfolio.css";
 
 const portfolioHTML = `

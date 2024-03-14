@@ -1,6 +1,6 @@
 import { banner } from "../../components/banner/banner";
-import { ContactContent } from "../../data";
-import { util } from "../../util";
+import { ContactContent } from "../../data.js";
+import { util } from "../../util.js";
 import "./contact.css";
 
 const messageFormHTML = `
