@@ -1,5 +1,5 @@
-import { HomeContent } from "../../data";
-import "./client.css";
+import { HomeContent } from "../../data.js";
+import { loadCss } from "../../util.js";
 
 loadCss("/public/js/components/client/client.css");
 
