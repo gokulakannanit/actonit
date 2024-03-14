@@ -1,8 +1,8 @@
-import "../css/style.css";
-
 import { util } from "./util.js";
 import { Header } from "./components/header/header.js";
 import { Footer } from "./components/footer/footer.js";
+
+util.loadCss("/public/css/style.css");
 
 export const main = () => {
   const utils = util();

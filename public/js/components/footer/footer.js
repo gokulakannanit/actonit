@@ -1,6 +1,6 @@
 import { util, logoHTML, navHTML } from "../../util";
 
-import "./footer.css";
+util.loadCss("/public/js/components/footer/footer.css");
 
 const htmlString = `
     <div class="footer container">

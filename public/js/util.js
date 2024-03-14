@@ -23,6 +23,15 @@ export const navHTML = (path = '') => `
 export const noMessageHTML = (msg = commonMessage.NO_MESSAGE) =>
   `<p class="no_message"><span>${msg}</span></p>`;
 
+export const loadCss = (url) => {
+  let head = document.getElementsByTagName('HEAD')[0];
+  let link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.type = 'text/css';
+  link.href = url;
+  head.appendChild(link);
+}
+
 export const util = () => {
   const scrollFunctions = [];
   const addScrollFn = (scrollFn) => scrollFunctions.push(scrollFn);
