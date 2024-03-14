@@ -1,9 +1,7 @@
 import { clientHTML } from "../../components/client/client";
 import { BannerService, HomeContent, bannerImages } from "../../data";
 import { util } from "../../util";
-
-import sheet from "./home.css" assert { type: "css" };
-document.adoptedStyleSheets = [sheet];
+import "./home.css";
 
 const numberHTML = `
 <section class="numbers flex_box animation">

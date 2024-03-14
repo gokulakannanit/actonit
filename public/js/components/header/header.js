@@ -1,7 +1,6 @@
 import { util, logoHTML, navHTML } from "../../util";
 
-import sheet from "./header.css" assert { type: "css" };
-document.adoptedStyleSheets = [sheet];
+import "./header.css";
 
 const htmlString = `
 <div class="header container flex_box">
