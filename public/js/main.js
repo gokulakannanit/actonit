@@ -33,9 +33,9 @@ export const main = () => {
   const loadPage = (path) => {
     header.pathChange(path);
     const page = path.split("/")[1] || "home";
-    
+
     pageObj[page]?.load() ||
-      import("./page/" + page + "/" + page).then((module) => {
+      import("./page/" + page + "/" + page + ".js").then((module) => {
         console.log(page);
         pageObj[page] = module.default(mainEle);
         pageObj[page].load();
