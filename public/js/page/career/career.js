@@ -1,7 +1,9 @@
 import { banner } from "../../components/banner/banner.js";
 import { CareerContent } from "../../data.js";
 import { util } from "../../util.js";
-import "./career.css";
+
+
+loadCss("/public/js/page/career/career.css");
 
 const jobListHTML = (jobs) => `
 ${jobs

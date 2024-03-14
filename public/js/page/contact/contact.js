@@ -1,7 +1,9 @@
-import { banner } from "../../components/banner/banner";
+import { banner } from "../../components/banner/banner.js";
 import { ContactContent } from "../../data.js";
 import { util } from "../../util.js";
-import "./contact.css";
+
+
+loadCss("/public/js/page/contact/contact.css");
 
 const messageFormHTML = `
 <section class="contact_form container">

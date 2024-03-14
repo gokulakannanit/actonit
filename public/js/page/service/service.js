@@ -1,7 +1,8 @@
-import { ServiceContent } from "../../data";
-import { util } from "../../util";
-import { banner } from "../../components/banner/banner";
-import "./service.css";
+import { ServiceContent } from "../../data.js";
+import { util } from "../../util.js";
+import { banner } from "../../components/banner/banner.js";
+
+loadCss("/public/js/page/service/service.css");
 
 const serviceListHTML = `
 <section class="container align_center">

@@ -1,7 +1,9 @@
 import { PortfolioContent } from "../../data.js";
 import { noMessageHTML, util } from "../../util.js";
 import { banner } from "../../components/banner/banner.js";
-import "./portfolio.css";
+
+
+loadCss("/public/js/page/portfolio/portfolio.css");
 
 const portfolioHTML = `
 <section class="portfolio">

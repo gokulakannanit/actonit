@@ -36,7 +36,6 @@ export const main = () => {
 
     pageObj[page]?.load() ||
       import("./page/" + page + "/" + page + ".js").then((module) => {
-        console.log(page);
         pageObj[page] = module.default(mainEle);
         pageObj[page].load();
       });
