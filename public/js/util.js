@@ -2,7 +2,7 @@ import { commonMessage, navMenu } from "./data.js";
 
 export const logoHTML = `
 <a href="/" class="logo">
-    <img alt="" src="/public/images/logo.jpg" />
+    <img alt="" src="/public/images/logo.png" />
     <h1><span class="font_primary">ACT</span><span class="overlay">ON</span></h1>
 </a>
 `;
