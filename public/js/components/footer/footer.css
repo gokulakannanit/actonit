@@ -6,7 +6,6 @@
   }
   .footer_info {
     padding: 20px;
-    min-width: 340px;
     max-width: 340px;
     ul {
       margin-top: 20px;
@@ -76,7 +75,7 @@
   footer {
     .flex_box {
       flex-wrap: wrap;
-      justify-content: space-between;
+      justify-content: flex-start;
       .footer_info {
         max-width: 100%;
       }
