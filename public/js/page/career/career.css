@@ -114,4 +114,8 @@
   .career_page .career .inside {
     flex-wrap: wrap;
   }
+
+  .reach_us {
+    margin: 20px;
+  }
 }

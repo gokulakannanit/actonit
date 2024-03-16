@@ -39,7 +39,7 @@ const careerHTML = `
             </div>
             <div class="reach_us align_center">
                 <p class="font_primary"><i class="fa fa-phone"></i></p>
-                <p class="message">${CareerContent.ext.reachUsMessage}</p>
+                <p>${CareerContent.ext.reachUsMessage}</p>
                 <h2 class="font_primary"><a href="tel:">1900 68668</a></h2>
                 <button>Contact Us</button>
             </div>
