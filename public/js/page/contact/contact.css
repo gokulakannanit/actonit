@@ -2,9 +2,15 @@
   .contact_us {
     margin: 30px auto;
 
+    h3,
+    h2 {
+      padding: 0 20px;
+    }
+
     .block {
       max-width: 650px;
       margin: 20px auto;
+      padding: 0 20px;
     }
 
     .contact_thumb {
@@ -88,6 +94,39 @@
         color: #fff;
         border: none;
         font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .flex_box {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 720px) {
+  .contact_page {
+    .contact_us .flex_box {
+      .contact_thumb {
+        width: calc(100% - 40px);
+      }
+    }
+
+    .contact_form {
+      .contact_bg {
+        display: none;
+      }
+
+      .form .form_row {
+        margin:0;
+      }
+
+      .form .form_row input[type="text"],
+      .form .form_row textarea {
+        width: calc(100% - 20px);
+        margin: 10px 0;
       }
     }
   }
