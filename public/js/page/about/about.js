@@ -55,7 +55,7 @@ const aboutHTML = `
     <h3 class="font_primary">${AboutContent.title}</h3>
     <h2>${AboutContent.desc}</h2>
     <div class="about_content">
-      <div>
+      <div class="experience_block">
         <div class="experience">
           <span class="year">15</span>
           <span>Years<br />Experience<br />In It</span>

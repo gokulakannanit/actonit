@@ -76,3 +76,55 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .about_page {
+    .about_us {
+      .about_content {
+        flex-wrap: wrap;
+        .experience_block {
+          margin: 0 auto;
+        }
+        .block {
+          margin: 0px;
+          p {
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+
+    .about_middle {
+      .container {
+        flex-wrap: wrap;
+        margin: 0 20px;
+
+        .content {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+}
+
+
+@media (max-width: 600px) {
+  .about_page {
+    .about_middle {
+      img {
+        width: calc(50% - 20px);
+        &:nth-child(2) {
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .about_final {
+      .block {
+        .message {
+          width: calc(100% - 80px);
+        }
+      }
+    }
+  }
+}
