@@ -11,7 +11,7 @@ const portfolioHTML = `
         <h3 class="font_primary">${PortfolioContent.title}</h3>
         <h2>${PortfolioContent.desc}</h2>
         <section class="list_tags">
-            <ul class="menu flex_box" style="width: 500px; margin: 50px auto">
+            <ul class="menu flex_box">
                 ${PortfolioContent.types
                   .map((item) => `<li><a>${item}</a></li>`)
                   .join("")}

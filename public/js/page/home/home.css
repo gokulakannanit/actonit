@@ -31,12 +31,18 @@
       animation: expandAnim 1s ease;
     }
 
+    .container {
+      position: relative;
+      overflow: visible;
+    }
+
     .banner_message {
       position: absolute;
       padding: 20px;
+      width: calc(100% - 100px);
       max-width: 570px;
       background-color: rgba(0, 0, 0, 0.8);
-      left: calc(50% - 620px);
+      left: 30px;
       top: 70px;
       border-radius: 10px;
 
@@ -65,7 +71,7 @@
 
   .numbers {
     justify-content: space-evenly;
-    width: 1280px;
+    max-width: 1280px;
     margin: 0 auto;
     position: relative;
     top: -120px;
@@ -116,6 +122,7 @@
 
   .about {
     margin: 0px auto 30px;
+    padding: 20px;
     overflow: hidden;
     .content {
       padding: 0 20px 20px;
@@ -139,14 +146,14 @@
     .about_right {
       position: relative;
       margin-right: 30px;
-      width: 520px;
-      height: 500px;
+      min-width: calc(50% - 30px);
 
       img {
-        width: 250px;
+        width: calc(50% - 20px);
         height: 350px;
         border-radius: 12px;
         border-left: 6px solid #66ae3e;
+        object-fit: cover;
 
         &:first-child {
           margin-right: 12px;
@@ -158,8 +165,7 @@
 
       .block {
         position: absolute;
-        max-width: 300px;
-        min-width: 220px;
+        width: 55%;
         min-height: 100px;
         background-color: #365e1e;
         top: 0px;
@@ -179,7 +185,7 @@
         &:last-child {
           top: initial;
           right: initial;
-          bottom: 0;
+          top: 360px;
           left: 0;
           background-color: #222;
         }
@@ -316,6 +322,54 @@
           .fa {
             padding: 0 5px 0 0;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .home {
+    .numbers {
+      flex-direction: column;
+
+      & > div.list {
+        position: absolute;
+        top: 0;
+        border-radius: 0;
+      }
+    }
+
+    .about {
+      flex-direction: column;
+      margin-top: 80px;
+
+      .about_right {
+        width: 100%;
+        margin-bottom: 30px;
+      }
+    }
+
+    .service {
+      .flex_box {
+        padding: 20px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .service_list_item {
+          min-width: 320px;
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .testimonial {
+      .list {
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        .list_item {
+          min-width: 320px;
+          margin-top: 20px;
         }
       }
     }

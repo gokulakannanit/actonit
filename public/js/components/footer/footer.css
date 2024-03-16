@@ -1,10 +1,12 @@
 .footer {
+  background-color: #222;
+  color: #efefef;
   .footer_logo {
     margin: 10px 0 30px;
   }
   .footer_info {
     padding: 20px;
-    min-width: 200px;
+    min-width: 340px;
     max-width: 340px;
     ul {
       margin-top: 20px;
@@ -68,4 +70,16 @@
 
 .scroll_button .fa {
   font-size: 42px;
+}
+
+@media (max-width: 1024px) {
+  footer {
+    .flex_box {
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .footer_info {
+        max-width: 100%;
+      }
+    }
+  }
 }

@@ -1,6 +1,8 @@
 .header {
   .header_right {
     margin-right: 10px;
+    display: flex;
+    flex-direction: column;
     .contact {
       justify-content: flex-end;
       font-size: 14px;
@@ -30,37 +32,90 @@
         }
       }
     }
-  }
-  .menu {
-    li {
-      display: inline-block;
-      a {
+
+    .menu {
+      li {
         display: inline-block;
-        text-align: center;
-        padding: 5px;
-        text-decoration: none;
-        min-width: 100px;
-        font-weight: bold;
-        padding-bottom: 10px;
+        a {
+          display: inline-block;
+          text-align: center;
+          padding: 5px;
+          text-decoration: none;
+          min-width: 100px;
+          font-weight: bold;
+          padding-bottom: 10px;
 
-        &.selected,
-        &:hover {
-          color: #66ae3e;
-          position: relative;
-        }
+          &.selected,
+          &:hover {
+            color: #66ae3e;
+            position: relative;
+          }
 
-        &.selected {
-          &::after {
-            content: '';
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            border-bottom: 4px solid #66ae3e;
-            animation: incWidth 0.5s ease-in-out;
+          &.selected {
+            &::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              width: 100%;
+              border-bottom: 4px solid #66ae3e;
+              animation: incWidth 0.5s ease-in-out;
+            }
           }
         }
       }
+    }
+
+    .menu_icon {
+      display: none;
+      padding: 10px 20px;
+      margin-top: 15px;
+      align-self: flex-end;
+      .fa {
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    .header_right {
+      .contact {
+        display: none;
+      }
+      .menu {
+        position: fixed;
+        right: -300px;
+        top: 0;
+        height: 100%;
+        background-color: #222;
+        z-index: 11;
+        min-width: 300px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+        -webkit-font-smoothing: antialiased;
+        transition: all 0.3s ease-out;
+        ul {
+          display: block;
+          li {
+            display: block;
+            a {
+              width: calc(100% - 40px);
+              text-align: right;
+              padding: 20px 10px;
+            }
+          }
+        }
+        &.slide {
+          right: 0 !important;          
+        }
+      }
+      .menu_icon {
+        display: inline-block;
+      }
+    }
+    .logo {
+      margin: 10px;
     }
   }
 }

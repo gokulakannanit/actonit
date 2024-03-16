@@ -21,7 +21,7 @@ export const main = () => {
     utils.getEleAll("a").forEach((ele) =>
       ele.addEventListener("click", (e) => {
         const path = e.target.getAttribute("href");
-        if (path.substring(0, 1) === "/") {
+        if (path?.substring(0, 1) === "/") {
           e.preventDefault();
           window.history.pushState({}, null, path);
           loadPage(path);

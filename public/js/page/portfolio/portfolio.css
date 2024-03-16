@@ -3,6 +3,9 @@
     margin: 30px 0 0;
 
     .menu {
+      width: calc(100% - 40px); 
+      max-width: 500px;
+      margin: 50px auto;
       a {
         display: inline-block;
         font-weight: bold;
@@ -29,6 +32,7 @@
     }
     .portfolio_thumb {
       width: calc(30% - 60px);
+      min-width: 320px;
       border: 1px solid #ccc;
       border-radius: 12px;
       margin: 20px;
@@ -49,5 +53,18 @@
         padding: 10px 0;
       }
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .menu {
+    flex-wrap: wrap;
+    a {
+      margin-top: 20px;
+    }
+  }
+  .portfolio_list {
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 }

@@ -20,14 +20,16 @@ const bannerHTML = `
           .map((item) => `<img alt="" src="/public/images/banner/${item}" />`)
           .join("")}
     </div>
-    <div class="banner_message">
-        <p class="font_primary">Welcome to ACTON</p>
-        <h2>We transform ideas into technology</h2>
-        <p class="message">
-            We provide the most responsive and functional IT design for companies
-            and businesses worldwide.
-        </p>
-        <a href="#about" class="simple">Learn More</a>
+    <div class="container">
+      <div class="banner_message">
+          <p class="font_primary">Welcome to ACTON</p>
+          <h2>We transform ideas into technology</h2>
+          <p class="message">
+              We provide the most responsive and functional IT design for companies
+              and businesses worldwide.
+          </p>
+          <a href="#about" class="simple">Learn More</a>
+      </div>
     </div>
 </section>
 `;

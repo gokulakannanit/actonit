@@ -11,13 +11,19 @@
     animation: bannerFadeIn 2s ease-out;
   }
 
+  .container {
+    position: relative;
+    overflow: visible;
+  }
+
   .message {
     position: absolute;
     padding: 20px;
+    width: calc(100% - 100px);
     max-width: 480px;
     background-color: rgba(0, 0, 0, 0.8);
-    left: calc(50% - 620px);
-    top: 70px;
+    left: 30px;
+    bottom: 70px;
     border-radius: 12px;
     transform: scale(1);
     animation: expandAnim 1s ease;
