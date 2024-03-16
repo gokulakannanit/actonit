@@ -35,6 +35,15 @@
   }
 }
 
+@media (max-width: 600px) {
+  .banner_common {
+    height: 200px;
+    .message {
+      bottom: 20px;
+    }
+  }
+}
+
 @keyframes expandAnim {
   0% {
     transform: scale(0);

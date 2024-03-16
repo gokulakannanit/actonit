@@ -3,8 +3,8 @@ import { util, logoHTML, navHTML, loadCss } from "../../util.js";
 loadCss("/public/js/components/footer/footer.css");
 
 const htmlString = `
-    <div class="footer container">
-        <div class="flex_box">
+    <div class="footer">
+        <div class="container flex_box">
             <div class="footer_info">
                 <div class="footer_logo">${logoHTML}</div>
                 <div>

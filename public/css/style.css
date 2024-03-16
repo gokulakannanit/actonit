@@ -237,8 +237,17 @@ a:link {
 .small {
   font-size: 12px;
 }
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+  background-color: #fff;
+  width: 100%;
+}
 main {
   min-height: 600px;
+  margin-top: 80px;
 }
 
 .show {
