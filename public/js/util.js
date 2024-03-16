@@ -48,6 +48,7 @@ export const util = () => {
         util().removeClass(backdrop, "show");
       });
     },
+    removeBackdrop: () => util().removeClass(backdrop, "show"),
     adddHtml: (ele, htmlString) => (ele.innerHTML = htmlString),
     getEle: (selector) => document.querySelector(selector),
     getEleAll: (selector) => document.querySelectorAll(selector),

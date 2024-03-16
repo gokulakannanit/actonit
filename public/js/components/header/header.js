@@ -32,6 +32,8 @@ export const Header = (ele) => {
 
   return {
     pathChange: (path) => {
+      utils.removeClass(menu, "slide");
+      utils.removeBackdrop();
       utils.adddHtml(menu, `${navHTML(path)}`);
     },
   };
