@@ -66,12 +66,12 @@
         padding: 0 20px;
         .service_item_content {
           padding: 20px;
-          width: calc(100% - 100px);
+          width: calc(100% - 40px);
           margin: 0;
         }
         img {
           position: relative;
-          width: calc(100% - 60px);
+          width: 100%;
           left: 0;
           top: 20px;
           border-bottom: none;
@@ -84,7 +84,7 @@
           }
           .service_item_content {
             padding: 20px;
-            width: calc(100% - 100px);
+            width: calc(100% - 40px);
             margin: 0;
           }
         }
