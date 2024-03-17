@@ -19,7 +19,7 @@ const serviceListHTML = `
                     ${item.desc.map((des) => `<p>${des}</p>`).join("")}
                 </div>
             </div>`
-        )}
+        ).join("")}
     </div>
 </section>
 `;

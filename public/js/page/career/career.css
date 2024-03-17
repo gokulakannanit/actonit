@@ -98,7 +98,7 @@
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 960px) {
   .career_page .career .career_list .list_item {
     flex-wrap: wrap;
   }

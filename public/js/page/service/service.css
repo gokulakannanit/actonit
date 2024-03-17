@@ -62,15 +62,15 @@
   .service_page {
     .service_item_list {
       .service_item {
+        margin: 20px auto;
         .service_item_content {
           padding: 20px;
           width: calc(100% - 100px);
-          margin: 0 30px 30px;
+          margin: 0;
         }
         img {
           position: relative;
           width: calc(100% - 60px);
-          margin: 0 30px;
           left: 0;
           top: 20px;
           border-bottom: none;
@@ -84,7 +84,7 @@
           .service_item_content {
             padding: 20px;
             width: calc(100% - 100px);
-            margin: 0 30px 30px;
+            margin: 0;
           }
         }
       }

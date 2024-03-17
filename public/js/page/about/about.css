@@ -98,6 +98,10 @@
       .container {
         flex-wrap: wrap;
         margin: 0 20px;
+        .flex_box {
+          justify-content: space-around;
+          margin: 0 auto;
+        }
 
         .content {
           margin-left: 0;
@@ -111,6 +115,7 @@
 @media (max-width: 600px) {
   .about_page {
     .about_middle {
+      
       img {
         width: calc(50% - 20px);
         &:nth-child(2) {
